@@ -18,11 +18,30 @@
 
 
 #include "LIEF/PE/Parser.hpp"
+#include "LIEF/PE/Section.hpp"
+#include "LIEF/PE/Export.hpp"
+#include "LIEF/PE/ExportEntry.hpp"
+#include "LIEF/PE/Import.hpp"
+#include "LIEF/PE/ImportEntry.hpp"
+#include "LIEF/PE/RelocationEntry.hpp"
+#include "LIEF/PE/Pogo.hpp"
+#include "LIEF/PE/PogoEntry.hpp"
+#include "LIEF/PE/DataDirectory.hpp"
+#include "LIEF/PE/ResourcesManager.hpp"
+#include "LIEF/PE/ResourceData.hpp"
+#include "LIEF/PE/ResourceNode.hpp"
+#include "LIEF/PE/ResourceDirectory.hpp"
+#include "LIEF/PE/Symbol.hpp"
+#include "LIEF/PE/Relocation.hpp"
+#include "LIEF/PE/Symbol.hpp"
 #include "LIEF/PE/Builder.hpp"
 #include "LIEF/PE/Binary.hpp"
 #include "LIEF/PE/CodeViewPDB.hpp"
+#include "LIEF/PE/LoadConfigurations.hpp"
+
 #include "LIEF/PE/signature/OIDToString.hpp"
 
+#include "LIEF/PE/EnumToString.hpp"
 #include "LIEF/PE/utils.hpp"
 
 #endif
