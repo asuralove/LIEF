@@ -27,6 +27,8 @@
 
 #include "LIEF/MachO/utils.hpp"
 #include "LIEF/MachO/Parser.hpp"
+#include "LIEF/MachO/FatBinary.hpp"
+#include "LIEF/MachO/Binary.hpp"
 
 #include "LIEF/exception.hpp"
 
