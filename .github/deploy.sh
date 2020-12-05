@@ -62,7 +62,7 @@ case $branch in
     devel*) ;;
     master*) ;;
     deploy*) ;;
-    "enhancement/setup") ;;
+    "enhancement/win-py39") ;;
     *) exit 0;;
 esac
 
